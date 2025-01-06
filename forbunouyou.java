@@ -34,6 +34,14 @@ public class forbunouyou {
 		int f = 2;
 		String g= f%2==0 ? "偶数" : "奇数";
 		System.out.println(g);
+		
+		//ある数iが偶数の場合「☆」
+		//奇数の場合「★」を表示
+		//これをiが0以上、5以下の間繰り返す
+		for(int i=0; i<=5;i++) {
+			String h = i%2==0? "☆":"★";
+			System.out.println(h);
+		}
 
 	}
 
